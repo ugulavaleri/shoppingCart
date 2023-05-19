@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(232, 232, 232);
+    min-height: 100vh;
+    position: relative;
+}
+/* general classes */
+.flex {
+    display: flex;
+}
+.alignItemsCenter {
+    display: flex;
+    align-items: center;
+}
+
+/*  Header styles   */
+header {
+    padding: 60px 20px 50px 20px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.basketIconDiv {
+    position: relative;
+}
+.basketIconDiv img {
+    width: 24px;
+}
+.itemsNumber {
+    text-align: center;
+    background-color: #00000008;
+    padding: 8px 5px;
+    font-size: 14px;
+    color: #00000080;
+}
+.choosedLength {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 2px;
+
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+/*  Main list part styles   */
+.listBoardContainer {
+    border-bottom: 1px solid #0000001a;
+}
+.listBoard img {
+    vertical-align: top;
+}
+.listBoardContainer button {
+    cursor: pointer;
+    width: 100px;
+    height: 20px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #d94141;
+    border: none;
+    border-radius: 48px;
+    margin-top: 15px;
+}
+.listContainer {
+    padding: 15px 0px 80px 0px;
+}
+.listBoard {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px 15px 20px;
+}
+.imgAndNameBox {
+    gap: 20px;
+}
+.productName {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.productModel {
+    font-size: 14px;
+    color: #393939;
+    margin-bottom: 3px;
+}
+.productSize {
+    font-size: 13px;
+    color: #393939;
+    font-weight: 700;
+}
+.priceTitle {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+.container {
+    max-width: 390px;
+    width: 100%;
+
+    margin: 0 auto;
+    background-color: #fff;
+}
+.totalPriceBox {
+    justify-content: space-between;
+}
+
+/*  Footer styles   */
+footer {
+    background-color: #00000008;
+    padding-top: 30px;
+    padding: 25px 20px;
+    position: sticky;
+    /* top: 100%; */
+    bottom: 0;
+}
+.footerTotalTitle {
+    font-size: 16px;
+    font-weight: 400;
+}
+.footerPriceTitle {
+    font-weight: 700;
+    color: #393939;
+    font-size: 16px;
+}
+.checkOutButtonDiv {
+    max-width: 234px;
+    margin: 0 auto;
+}
+.checkOutButtonDiv button {
+    width: 100%;
+    height: 52px;
+    background-color: #393939;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 48px;
+
+    cursor: pointer;
+    margin: 0 auto;
+}
+.totalPriceBox {
+    margin-bottom: 110px;
+}
